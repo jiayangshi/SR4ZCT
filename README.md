@@ -35,8 +35,25 @@ This code includes example data from the [Low Dose CT Grand Challenge](https://w
     ```
 
 2. **Training and Testing**: Run the training and testing process. Intermediate results will be saved in the predefined directory *L291_result/* for monitoring the training progress. The enhanced resolution volumes will also be stored here.
+    ```python
+    python 1_train.py
+    ```
 
 ## Results
+
+We evaluated our method on both simulated and real-world CT images. Here are the example results:
+
+### Simulated CT Images:
+- **In-plane resolution**: 1mm, no overlap
+- **Through-plane resolution**: 6.25mm with an overlap of 3.125 mm
+
+   ![Simulated CT Image Result](images/example_result_6.25_3.125.png)
+
+### Real-world CT Images:
+- **In-plane resolution**: 0.7421875 mm, no overlap
+- **Through-plane resolution**: 3mm with an overlap of 1 mm
+
+   ![Real-world CT Image Result](images/example_result_real.png)
 
 
 ## Citation
