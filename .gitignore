@@ -137,3 +137,6 @@ dmypy.json
 .DS_Store
 *.npy 
 L291_result/
+
+!images/example_result_6.25_3.125.png
+!images/example_result_real.png
