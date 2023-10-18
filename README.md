@@ -59,4 +59,12 @@ We evaluated our method on both simulated and real-world CT images. Here are the
 ## Citation
 If you find this work useful and use it in your research, please consider citing our paper:
 ```
+@inproceedings{shi2023sr4zct,
+  title={SR4ZCT: Self-supervised Through-Plane Resolution Enhancement for CT Images with Arbitrary Resolution and Overlap},
+  author={Shi, Jiayang and Pelt, Dani{\"e}l M and Batenburg, K Joost},
+  booktitle={International Workshop on Machine Learning in Medical Imaging},
+  pages={52--61},
+  year={2023},
+  organization={Springer}
+}
 ```
