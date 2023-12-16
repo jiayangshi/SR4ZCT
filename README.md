@@ -15,7 +15,7 @@ Computed tomography (CT) is a widely used non-invasive medical imaging technique
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/SR4ZCT.git
+   git clone https://github.com/jiayangshi/SR4ZCT.git
    cd SR4ZCT
    ```
 
