@@ -4,8 +4,14 @@ This repository contains the code accompanying the paper:
 
 **[SR4ZCT: Self-supervised Through-plane Resolution Enhancement for CT Images with Arbitrary Resolution and Overlap](https://link.springer.com/chapter/10.1007/978-3-031-45673-2_6)**
 
+**[Self-supervised Resolution Enhancement for Anisotropic Volumes in Edge Illumination X-ray Phase Contrast Micro-Computed Tomography](https://www.sciencedirect.com/science/article/pii/S2949673X24000238)**
+
 ## Abstract
+### SR4ZCT: Self-supervised Through-plane Resolution Enhancement for CT Images with Arbitrary Resolution and Overlap
 Computed tomography (CT) is a widely used non-invasive medical imaging technique for disease diagnosis. The diagnostic accuracy is often affected by image resolution, which can be insufficient in practice. For medical CT images, the through-plane resolution is often worse than the in-plane resolution and there can be overlap between slices, causing difficulties in diagnoses. Self-supervised methods for through-plane resolution enhancement, which train on in-plane images and infer on through-plane images, have shown promise for both CT and MRI imaging. However, existing self-supervised methods either neglect overlap or can only handle specific cases with fixed combinations of resolution and overlap. To address these limitations, we propose a self-supervised method called SR4ZCT. It employs the same off-axis training approach while being capable of handling arbitrary combinations of resolution and overlap. Our method explicitly models the relationship between resolutions and voxel spacings of different planes to accurately simulate training images that match the original through-plane images. We highlight the significance of accurate modeling in self-supervised off-axis training and demonstrate the effectiveness of SR4ZCT using a real-world dataset.
+
+### Self-supervised Resolution Enhancement for Anisotropic Volumes in Edge Illumination X-ray Phase Contrast Micro-Computed Tomography
+X-ray phase contrast micro-computed tomography (micro-CT) can achieve higher contrast than conventional absorption-based X-ray micro-CT by utilizing refraction in addition to attenuation. In this work, we focus on a specific X-ray phase contrast technique, edge illumination (EI) micro-CT. EI uses a sample mask with transmitting apertures that split the X-ray beam into narrow beamlets, enabling detection of refraction-included intensity variations. Between the typical mask designs (circular and slit-shaped apertures), slit-shaped apertures offer practical advantages over circular ones, as they only require sample stepping in one direction, thereby reducing scanning time. However, this leads to anisotropic resolution, as the slit-shaped apertures enhances resolution only along the direction orthogonal to the slits. To address this limitation, we propose a self-supervised method that trains on high-resolution in-plane images to enhance resolution for out-of-plane images, effectively mitigating anisotropy. Our results on both simulated and real EI micro-CT datasets demonstrate the effectiveness of the proposed method.
 
 ## Prerequisites
 
@@ -66,5 +72,14 @@ If you find this work useful and use it in your research, please consider citing
   pages={52--61},
   year={2023},
   organization={Springer}
+}
+
+@article{shi2024self,
+  title={Self-supervised Resolution Enhancement for Anisotropic Volumes in Edge Illumination X-ray Phase Contrast Micro-Computed Tomography},
+  author={Shi, Jiayang and Brown, Louisa and Zekavat, Amir R and Pelt, Dani{\"e}l M and Hagen, Charlotte K},
+  journal={Tomography of Materials and Structures},
+  pages={100046},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
